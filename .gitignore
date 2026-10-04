@@ -1,0 +1,11 @@
+# Generated release packages can contain unpublished lyrics and metadata.
+out/
+
+# Local OAuth credentials and tokens must never be committed.
+.env
+credentials.json
+token.json
+
+# Python bytecode
+__pycache__/
+*.py[cod]
